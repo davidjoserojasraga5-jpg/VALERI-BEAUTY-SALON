@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #1a1a1a;
+    background-color: #ffffff;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Professional Polish Gold and Blush Theme Utilities */
+.polish-gold-text {
+  color: #D4AF37;
+}
+
+.polish-dark-gold {
+  color: #A88732;
+}
+
+.polish-blush-bg {
+  background-color: #F5E1DA;
+}
+
+.polish-blush-border {
+  border-color: #F5E1DA;
+}
+
+.polish-gold-border {
+  border-color: #D4AF37;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #F9F9F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A88732;
+}

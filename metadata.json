@@ -1,0 +1,6 @@
+{
+  "name": "Salón de Belleza Valeri - Asistente y Reservas",
+  "description": "Sistema interactivo de reservas y asistente de atención para el Salón de Belleza Valeri con catálogo por categorías, servicio a domicilio y panel de administración.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
